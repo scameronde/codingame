@@ -2,8 +2,7 @@ import System.IO
 
 main :: IO ()
 main = do
-    hSetBuffering stdout NoBuffering -- DO NOT REMOVE
-    
+    hSetBuffering stdout NoBuffering
     loop
 
 loop :: IO ()
